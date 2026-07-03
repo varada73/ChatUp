@@ -1,0 +1,14 @@
+A Context is React's Mechanism of sharing data globally without manually passing props through every component.
+Without Context:
+
+<App socket={socket}>
+    <Sidebar socket={socket}>
+        <Chat socket={socket}/>
+    </Sidebar>
+</App>
+
+
+useContext
+
+Used to consume data from a Context.
+
